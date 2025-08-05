@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #dff1ff, #c2f0f7);
+}
+
+.weather-box {
+  max-width: 420px;
+  width: 100%;
+}
+
+.weather-card {
+  border-radius: 12px;
+  background-color: #e7fbe7;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.temp {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+}
+
+.date-badge {
+  background-color: #c0f4d8;
+  color: #1d1d1d;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#weatherResult i {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #1e88e5;
+}
+
+.weather-box h2 i {
+  font-size: 1.8rem;
+  vertical-align: middle;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+<body class="bg-light">
+
+  <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100">
+    <div class="weather-box p-4 shadow rounded bg-white">
+
+      <!-- Heading -->
+      <h2 class="text-center fw-bold text-primary mb-4">
+        <i class="bi bi-cloud-sun-fill me-2 text-warning"></i>
+        Weather Forecast
+      </h2>
+
+      <!-- Search Input -->
+      <div class="input-group mb-4 shadow-sm">
+        <input type="text" id="cityInput" class="form-control" placeholder="Enter City Name" />
+        <button class="btn btn-success" onclick="getWeather()">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+
+      <!-- Weather Result -->
+      <div id="weatherResult" class="text-center"></div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
