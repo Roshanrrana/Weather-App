@@ -13,6 +13,11 @@ body {
   padding: 20px;
   margin-top: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .temp {
